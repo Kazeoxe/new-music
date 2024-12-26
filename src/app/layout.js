@@ -59,9 +59,9 @@ export default function RootLayout({ children }) {
             <div className="w-[10vw] h-[105vh] bg-[red] bar"></div>
           </div>
         </div>
-        <SmoothScroll>
+        
           <main>{children}</main>
-        </SmoothScroll>
+        
       </body>
     </html>
   );
